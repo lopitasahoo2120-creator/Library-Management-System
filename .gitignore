@@ -1,0 +1,31 @@
+# ---- build output ----
+build/
+*.o
+*.d
+*.ko
+*.mod
+*.mod.c
+*.o.cmd
+*.order
+.*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+
+# ---- runtime data (regenerated on first run) ----
+data/*.dat
+data/*.tmp
+logs/*.log
+logs/*.tmp
+
+# ---- FIFO / device artefacts ----
+/tmp/library_ipc_fifo
+
+# ---- editors / OS ----
+*.swp
+*~
+.vscode/
+.idea/
+*.sublime-*
+.DS_Store
+Thumbs.db
